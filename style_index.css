@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+}
+
+
+
+
+body{
+    font-family: 'Nunito Sans' , sans-serif;
+    background-color: rgba(10, 10, 10, 0.863);
+    color: white;
+}
+
+
+
+.card-lista-de-produtos{
+    text-align: center;
+}
+
+main {
+    padding:  30px 50px;
+    width: 90%;
+    
+        
+}
+
+.Card {
+    background-color: rgba(17, 21, 240, 0.555);
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+
+}   
+    
+
+.lineInput {
+
+    display: grid;  /* grid; faz os itens ficar um a baixo do outro */
+    margin-bottom: 10px;
+}
+
+input::placeholder {
+    padding: 10px;
+    border-radius: 3px;
+    outline: 0; /* tira a borda dos inputs */
+    color: white;  
+}
+#nome, #Endereço,#selecao-de-pao,#menu-de-carnes,#menu-de-saladas{
+    border: 1px solid #0fe2e2;
+    background: #0a7daa;
+    padding: 10px;
+    text-align: center;
+
+}
+option{
+    background: #fff;
+}
+#container-de-botoes{
+    display: flex;
+    justify-content: center;
+}
+button{
+    border: 0px;
+    padding: 10px;
+    outline: 0;
+    background-color: rgb(241, 7, 7);
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all ease 0.3s ;
+
+}
+
+button:hover{
+    cursor: pointer;
+    background: green;
+    transition: all ease 0.9s ;
+
+}
+
+#botões-de-ações{
+    margin: 5px;
+}
+
+.container{
+    margin-top: 15px;
+}
+#ancora-cardapio{
+    text-decoration: none;
+    color: #fff;
+}
+
+table{
+   border-collapse: collapse; 
+   border:1px solid #ccc;
+   width: 100%;
+}
+
+table th td {
+   
+    text-align: left;
+    padding: 1px 5px;
+}
+
+table td img {
+    width: 22px;
+    
+}
+
+.center{
+    text-align: center;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style_index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <div class="card-lista-de-produtos">
+            <h2>Lanches Yase</h2>
+        </div>
+
+        <div class="Card">
+            <div class="lineInput" >
+                <input type="text" id="nome" placeholder="Nome">
+            </div>
+
+            <div class="lineInput">
+                <input type="text" id="Endereço" placeholder="Endereço">
+            </div>
+
+            <div class="lineInput">            
+                <select name="selecao-de-pao" id="selecao-de-pao">
+                    <option value="" selected disabled>Selecione o Lanche</option>
+                    <option value="X Salada Dubplo">X Salada Dubplo</option>
+                    <option value="X Salada Especial">X Salada Especial</option>
+                    <option value="X Mega">X Mega</option>
+                    <option value="X-Prodigio">X-Prodigio</option>
+                    <option value="Pró-Mega">Pró-Mega</option>
+                    <option value="Tortinha">Tortinha</option>  
+                    <option value="Prato Fino">Prato Fino</option> 
+                    <option value="Muggi">Muggi</option>
+                    <option value="Enroladinho">Enroladinho</option>
+                    <option value="Shawarmy">Shawarmy</option>
+                    <option value="Esfirra-Indigena">Esfirra-Indigena</option>
+                    <option value="Dell Vale">Dell Vale</option>
+                    <option value="Pronta Entrega">Pronta Entrega</option>
+                    <option value="Parmezone">Parmezone</option>
+                </select>
+            </div>
+
+            <br>
+            <div class="lineInput">
+                <select name="menu" id="menu-de-carnes">
+                    <option value="" selected disabled>Selecione o Tipo de Bebida</option>
+                    <option value="Coca Cola 2L">Coca Cola 2L</option>
+                    <option value="Coca Cola 1,5L">Coca Cola 1,5L</option>
+                    <option value="Coca Cola 600 ml">Coca Cola 600 ml</option> 
+                    <option value="Guaraná 2L">Guaraná 2L</option>
+                    <option value="Guaraná 600 ml">Guaraná 600 ml</option>
+                    <option value="Skol">Skol</option>
+                    <option value="Brahma">Brahma</option>
+                    <option value="Haineken">Haineken</option>
+
+
+                </select>
+            </div>
+            <br>
+            <div class="lineInput">
+                <label for=""></label>
+                <select name="menu-salada" id="menu-de-saladas">
+                    <option value="" selected disabled>Selecione a Forma de Pagamento</option>
+                    <option value="Maquininha">Maquininha</option>
+                    <option value="Dinheiro">Dinheiro</option>
+                    <option value="Pix">Pix</option>  
+
+                </select>
+            </div>
+         
+            <br>
+            <br>
+           <div id="container-de-botoes">
+
+                <div id="botões-de-ações">
+                    <button><a href="hamburges.html" id="ancora-cardapio">Cardápio</a></button>
+                </div>
+
+
+                <div id="botões-de-ações">
+                    <button onclick="produto.salvar()" id="transformar-botão-para-atualizar">Salvar</button>
+                </div>
+                <div id="botões-de-ações">
+                    <button onclick="produto.limpeza_do_input()">Cancelar</button>  
+                </div>
+           </div>         
+            
+
+        </div>
+    
+        <div class="container">
+            <table border="1">
+                <thead>
+                        <!-- (<table>) para representar as células que contêm os títulos ou os rótulos de cada coluna ou linha.  -->
+                        <!-- Por padrão, o texto em <th> é exibido em negrito e centralizado.   --> 
+                        <!-- TH é uma celula de cabeçalho A tag <th> é usada dentro de uma tabela -->
+                    <th>ID</th> 
+                    <th>Nome</th>                                            
+                    <th>Endereço</th>
+                    <th>Lanche</th>
+                    <th>Bebida</th>
+                    <th>Pagamento</th>
+                    <th class="center">Ações</th>
+                </thead>
+                <tbody id="tbody">
+                    
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+
+<script src="funcao.js"></script>
+</html>

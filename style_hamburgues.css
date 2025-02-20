@@ -1,0 +1,190 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Poppins:wght@300;400;500;700&display=swap');
+  
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.cardapio{
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: red;
+    padding: 20px;
+    font-family: kalam;
+    font-size: 50px;
+}
+
+.seção{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    align-items: center;
+    height: 50px;
+    gap: 10px;
+    height: 50px;
+    padding: 10px;
+    border: solid 2px white;
+    
+}
+
+
+.img{
+    width: 30px;
+    cursor: pointer;
+}
+
+
+
+.ancora{
+    text-decoration: none;  
+    display: flex;
+    justify-content: center;
+    color: azure;
+    background: black;
+    padding: 10px;  
+    cursor: pointer;
+    border: solid 2px white;
+    font-family: kalam;
+    font-size: 30px;
+    
+
+}
+
+
+
+.sanduiches{
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 20px;  
+    background: black;
+   
+}
+
+.Sany{
+ margin: 30px;
+ width: 150px;
+ height: 120px;
+ border-radius: 5%;
+ 
+
+}
+
+.preço{
+    display: flex;
+    justify-content: center;
+    color: bisque;
+    font-weight: 900;
+    margin: 5px;
+}
+.borda{
+    border: 2px solid rgb(243, 235, 235);
+    background: rgba(68, 66, 66, 0.61);
+    margin: 5px;
+    border-radius: 5%;
+    cursor: pointer;
+    color: white;
+
+}
+
+.botãopedido{
+    display: flex;
+    justify-content: center;
+    color: rgb(241, 18, 18);
+    background: rgb(17, 16, 16);
+    font-family:fantasy;
+    font-size: 18px;
+    margin: 20px;
+    padding: 5px;
+    text-decoration: none;
+}
+.botãopedido:hover{
+    color: white;
+}
+
+
+.borda:hover{
+    border: 2px solid rgb(248, 9, 9);
+    transition: 0.3s;
+}
+
+.contato{
+    color: azure;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.desen{
+    background: black;
+    text-align: center;
+    color: azure;
+    padding: 5px;
+    border: 2px solid rgb(243, 235, 235);
+
+}
+
+
+
+@media (min-width: 1600px){
+    .ancora{
+        display: none;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 565px){
+   
+    .cardapio{
+        padding: 100px 0  0;
+    }
+    .sanduiches{
+        
+            display: flex;
+            justify-content:center; 
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 10px;
+            gap: 20px;  
+            background: black;
+    }
+        
+    }
+    
+    .carrinho-Mobile{
+        align-items: center;
+      
+        width: 55px;
+    
+    }
+    
+    
+    .img02-Mobile{
+    
+     width: 200px;
+        
+    }
+    
+    .seção-mobile{
+        background: black;
+        display:block;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        gap: 10px;
+        height: 50px;
+        padding: 10px;
+       
+    }
+
